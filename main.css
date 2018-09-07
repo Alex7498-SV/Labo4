@@ -1,11 +1,12 @@
 .general{
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
 }
 
-#sep{
+hr{
     color:#f56a6a;
 }
 
@@ -25,9 +26,122 @@
 .content{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 90% 10%;
+   
+}
+
+.imag{
+  
+    display: flex;
+    justify-content: center;
 
 }
+
  .t2, .cont{
      grid-column-start: 1;
+     grid-column-end: span 4;
  }
+
+ .Lm{
+    grid-column-start: 1;
+    color: #f56a6a;
+    border:#f56a6a 1pt solid;
+    background-color: #eb706200;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+ }
+
+.Lm:hover{
+     background-color: #f56a6a3d
+ }
+
+.div4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+ }
+
+.s1{
+    grid-column-start: 1;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: repeat(10, 10%)
+
+}
+
+.cs1{
+    grid-column-start: 2;
+    font-size: 0.8em;
+}
+
+.icon{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    font-size: 2em;
+    color:#f56a6a;
+}
+
+.s2{
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: repeat(10, 10%)
+
+}
+
+.cs2{
+    grid-column-start: 2;
+    font-size: 0.8em;
+}
+
+.icon{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    font-size: 2em;
+    color:#f56a6a;
+}
+
+.s3{
+    grid-column-start: 1;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: repeat(10, 10%)
+
+}
+
+.cs3{
+    grid-column-start: 2;
+    font-size: 0.8em;
+}
+
+.icon{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    font-size: 2em;
+    color:#f56a6a;
+}
+
+.s4{
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: repeat(10, 10%)
+
+}
+
+.cs4{
+    grid-column-start: 2;
+    font-size: 0.8em;
+}
+
+.icon{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    font-size: 2em;
+    color:#f56a6a;
+}
+
+.content_2 hr{
+    margin-right: 87%;
+    border: 2pt solid #f56a6a;
+}
