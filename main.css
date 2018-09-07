@@ -29,6 +29,10 @@ hr{
    
 }
 
+.content p{
+    color: #7f888f
+}
+
 .imag{
   
     display: flex;
@@ -144,4 +148,9 @@ hr{
 .content_2 hr{
     margin-right: 87%;
     border: 2pt solid #f56a6a;
+}
+
+.div4 p{
+    color: #7f888f
+
 }
