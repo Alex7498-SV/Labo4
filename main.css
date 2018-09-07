@@ -1,0 +1,33 @@
+.general{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#sep{
+    color:#f56a6a;
+}
+
+.hg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hg span{
+    color: gray;
+}
+.icons{
+    margin-right: 25pt;
+    color: gray;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90% 10%;
+
+}
+ .t2, .cont{
+     grid-column-start: 1;
+ }
